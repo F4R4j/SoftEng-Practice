@@ -29,12 +29,13 @@ int main() {
 
     // Menghitung volume
     volume_m3 = panjang * lebar * tinggi;            // Volume dalam meter kubik
-    volume_liter = volume_m3 * 1000;                 // Konversi ke liter (1 m³ = 1000 liter)
+    volume_liter = volume_m3 * 1000;                 // Konversi ke liter (1 mÂ³ = 1000 liter)
 
     // Menampilkan hasil
     printf("Volume air adalah %.3f meter kubik.\n", volume_m3);
     printf("Atau sekitar %.2f liter.\n", volume_liter);
-
+    printf("selamat");
+    
     return 0;
 }
 
